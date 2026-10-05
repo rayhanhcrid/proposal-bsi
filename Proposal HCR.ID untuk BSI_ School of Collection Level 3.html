@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Proposal HCR.ID untuk BSI: School of Collection Level 3</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0A1628;--navy2:#12223b;--gold:#C9A84C;--teal:#0ABFBC;--cream:#FAF7F0;--mut:#b9bfcb;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--navy);color:var(--cream);font:400 16px/1.65 'Plus Jakarta Sans',system-ui,sans-serif}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;margin:0;line-height:1.2}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:rgba(10,22,40,.96);border-bottom:1px solid #24344f}
+.bar .wrap{display:flex;align-items:center;gap:16px;padding-top:10px;padding-bottom:6px}
+.logo{font:800 20px 'Playfair Display',serif;color:var(--gold);white-space:nowrap}
+.logo small{font:500 11px 'Plus Jakarta Sans';color:var(--mut);margin-left:8px}
+nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav button{background:none;border:0;color:var(--mut);font:500 14px 'Plus Jakarta Sans';padding:8px 12px;border-radius:8px;cursor:pointer;white-space:nowrap}
+nav button[aria-selected=true]{background:var(--gold);color:var(--navy);font-weight:700}
+nav button:focus-visible,summary:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+#prog{height:3px;background:#24344f}#prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--teal));transition:width .5s}
+.hero{padding:56px 0 36px}
+.hero h1{font-size:clamp(30px,6vw,54px);font-weight:800;color:var(--cream);max-width:15em}
+.hero p{max-width:40em;color:var(--mut);font-size:18px}
+.krh{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:28px 0}
+.krh div{background:var(--navy2);border:1px solid var(--gold);border-radius:12px;padding:12px 18px;text-align:center}
+.krh b{display:block;font:800 22px 'Playfair Display';color:var(--gold)}
+.krh span{font-size:13px;color:var(--mut)}
+.krh em{font:800 28px 'Playfair Display';color:var(--teal);font-style:normal}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:8px 0 12px}
+.stats div{border-left:3px solid var(--teal);padding:4px 14px}
+.stats b{font:800 34px 'Playfair Display';color:var(--gold);display:block}
+.stats span{font-size:13px;color:var(--mut)}
+section.tab{display:none;padding:28px 0 64px}section.tab.on{display:block}
+h2{font-size:clamp(24px,4vw,34px);color:var(--gold);margin-bottom:10px}
+h3{font-size:19px;color:var(--cream)}
+p.lead{color:var(--mut);max-width:44em}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0}
+.card{background:var(--navy2);border:1px solid #24344f;border-radius:14px;padding:18px}
+.card h3{color:var(--teal);margin-bottom:6px}
+.card p{margin:0;font-size:15px;color:var(--mut)}
+details{background:var(--navy2);border:1px solid #24344f;border-radius:14px;margin:10px 0}
+summary{cursor:pointer;padding:16px 18px;font:700 16px 'Plus Jakarta Sans';list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::after{content:'+';color:var(--gold);font-size:22px;line-height:1}
+details[open] summary::after{content:'\2212'}
+details[open]{border-color:var(--gold)}
+.in{padding:0 18px 18px;color:var(--mut);font-size:15px}
+.in ul{margin:6px 0;padding-left:20px}.in b{color:var(--cream)}
+.tag{display:inline-block;background:rgba(10,191,188,.14);color:var(--teal);border-radius:20px;padding:2px 10px;font-size:12px;font-weight:700;margin-right:6px}
+.tw{overflow-x:auto;margin:14px 0}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px}
+th{background:var(--gold);color:var(--navy);text-align:left;padding:10px}
+td{padding:10px;border-bottom:1px solid #24344f;vertical-align:top;color:var(--cream)}
+td:first-child{color:var(--gold);white-space:nowrap;font-weight:700}
+.bar2{height:10px;background:#24344f;border-radius:6px;overflow:hidden}.bar2 i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--gold));transition:width 1.2s}
+.note{border-left:3px solid var(--gold);background:rgba(201,168,76,.08);padding:12px 16px;border-radius:0 10px 10px 0;font-size:14px;color:var(--cream);margin:16px 0}
+footer{border-top:1px solid #24344f;padding:24px 0 40px;color:var(--mut);font-size:13px;text-align:center}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+:root[data-theme=light] body{background:var(--navy)}
+</style>
+</head>
+<body>
+<header class="bar">
+<div class="wrap"><div class="logo">HCR<small>High Class Response</small></div>
+<nav role="tablist" id="nav"></nav></div>
+<div id="prog"><i></i></div>
+</header>
+
+<div class="wrap">
+<div class="hero">
+<h1>Target adalah Kejadian. Kepemimpinanmu adalah Responsnya.</h1>
+<p>Proposal pelatihan <b>School of Collection Level 3: ACRM &amp; Pegawai N4 Kantor Pusat</b> untuk BSI Corporate University, PT Bank Syariah Indonesia (Persero) Tbk. Dirancang dari angka, struktur kerja, dan pemangku kepentingan RCG BSI sendiri.</p>
+<div class="krh"><div><b>K</b><span>Kejadian: Recovery WO Rp2 T, NPF 1,69%, Kol 2 1,08%</span></div><em>+</em><div><b>R</b><span>Respons: cara N4 memimpin tim &amp; jaringan</span></div><em>=</em><div><b>H</b><span>Hasil: target RCG 2026 tercapai</span></div></div>
+<div class="stats"><div><b data-n="60">0</b><span>manajer N4 (45 ACRM + 15 Kantor Pusat)</span></div><div><b data-n="14">0</b><span>jam, 2 hari, 2 batch</span></div><div><b data-n="6">0</b><span>alat latih orisinal HCR untuk RCG</span></div><div><b data-n="13">0</b><span>segmen Kantor Pusat dipetakan</span></div></div>
+</div>
+
+<section class="tab" id="t0">
+<h2>Pemahaman Kebutuhan</h2>
+<p class="lead">RFP menyebut tiga tujuan. Di balik ketiganya ada satu pertanyaan: bagaimana seorang manajer yang tidak menagih sendiri bisa menggerakkan banyak orang dan banyak pihak untuk memulihkan pembiayaan?</p>
+<div class="grid">
+<div class="card"><h3>ACRM: pemimpin di lapangan</h3><p>Memimpin 8-10 officer, staf, dan TAD, mengelola 25-30 cabang, dengan target Recovery WO rata-rata Rp40-50 miliar per Area. Mereka bekerja bersama KPKNL, BPN, Notaris, dan Investor, yang bukan bawahan mereka.</p></div>
+<div class="card"><h3>Manajer Kantor Pusat: perancang percepatan</h3><p>Memegang 13 segmen (Auto, Card, Legal, Micro, SME, Recovery &amp; SAM, dan lainnya) dengan 4-6 anggota tim. Hasil mereka bergantung pada seberapa cepat program sampai dan dijalankan di Area.</p></div>
+<div class="card"><h3>Celah yang kami lihat</h3><p>ACRM dan manajer Kantor Pusat berada di rantai yang sama, tetapi jarang berlatih bersama. Pelatihan kepemimpinan umum tidak menyentuh kenyataan ini.</p></div>
+</div>
+<div class="note">Penagihan di bank syariah punya tuntutan tambahan: tegas pada target, beradab pada nasabah. Kami menjadikan <b>amanah dan adab</b> bagian dari cara mengambil keputusan, bukan sesi terpisah. Contoh dan bahasanya sehari-hari, tanpa istilah akademis.</div>
+</section>
+
+<section class="tab" id="t1">
+<h2>Rancangan Program: Recovery Respons Lab</h2>
+<p class="lead">Enam alat latih orisinal HCR, dibuat khusus untuk RCG BSI. Tidak bisa dipakai ulang untuk klien lain.</p>
+<details open><summary>1. Target Cascade Board</summary><div class="in"><span class="tag">Modul 1</span>Peserta membawa angka Area atau segmennya (data dianonimkan). Target bankwide diturunkan menjadi peran per orang di tim 8-10 orang: siapa memegang apa, di mana celahnya, dan apa respons pemimpinnya. Menjawab indikator <b>1a</b> dan <b>1b</b>.</div></details>
+<details><summary>2. Respons Map untuk konflik tim</summary><div class="in"><span class="tag">Modul 1</span>Studi kasus berbasis K+R=H dari situasi nyata RCG: konflik cabang vs Area soal prioritas debitur, beda cara kerja officer vs TAD, rebutan sumber daya di akhir bulan. Peserta memetakan <b>Kejadian, Respons otomatis, Respons terbaik</b>, lalu melakukan roleplay mediasi. Menjawab <b>1c</b>.</div></details>
+<details><summary>3. Umpan Balik SBI-K+R dan Generalization Detector</summary><div class="in"><span class="tag">Modul 1</span>Format umpan balik: <b>Situasi, Behavior (perilaku spesifik), Impact</b>, lalu Respons yang diharapkan. Sesi permainan mengubah kalimat umum ("kamu kurang agresif") menjadi perilaku yang bisa diamati. Setiap peserta mempraktikkan umpan balik positif dan korektif dan menerima umpan balik dari rekan. Menjawab <b>1d</b>.</div></details>
+<details><summary>4. Stakeholder Constellation Map</summary><div class="in"><span class="tag">Modul 2</span>Peta relasi untuk ACRM (Cabang, Area Segmen, Region, Risk, Legal, Operation, Investor, KPKNL, BPN, Notaris) dan untuk manajer KP (department KP, lawyer, vendor). Peserta menilai kekuatan hubungan, menentukan siapa yang harus dihubungi minggu ini, dan menyusun pesan pembuka yang tepat. Menjawab <b>2a</b> dan <b>2b</b>.</div></details>
+<details><summary>5. Pasangan Strategis ACRM × Segmen KP</summary><div class="in"><span class="tag">Modul 2</span>Setiap batch mencampur ACRM dan manajer KP dalam meja berpasangan. Pasangan berlatih menyelesaikan satu hambatan nyata, misalnya program percepatan yang macet di Area. Jaringan terbentuk dari kerja bersama, bukan dari sesi perkenalan. Menjawab <b>2c</b>.</div></details>
+<details><summary>6. Respons Card 7 Hari</summary><div class="in"><span class="tag">Post learning</span>Setiap peserta pulang dengan satu komitmen perilaku terukur (satu umpan balik, satu hubungan dihidupkan kembali, satu hambatan lintas unit diselesaikan) dan mencatat hasilnya selama 7 hari. Ringkasannya masuk laporan akhir.</div></details>
+</section>
+
+<section class="tab" id="t2">
+<h2>Agenda dan Metode</h2>
+<p class="lead">Dua hari, 14 jam, tatap muka di Wisma Mandiri 1 Lt. 3. Setiap jam dibagi: 30% teori, 70% praktik.</p>
+<h3>Hari 1: Driving High Performance Teams (8 jam)</h3>
+<div class="tw"><table><tr><th>Waktu</th><th>Sesi</th></tr>
+<tr><td>08.00-08.45</td><td>Pembukaan, pre-test ringkas, kerangka K+R=H dan target RCG 2026</td></tr>
+<tr><td>08.45-10.30</td><td>Target Cascade Board: mengatur peran dan tanggung jawab tim</td></tr>
+<tr><td>10.45-12.00</td><td>Membangun lingkungan tim kolaboratif: dari target bankwide ke tim Area</td></tr>
+<tr><td>13.00-14.45</td><td>Respons Map: menyelesaikan konflik tim (roleplay)</td></tr>
+<tr><td>15.15-16.45</td><td>Umpan balik SBI-K+R dan Generalization Detector (praktik berpasangan)</td></tr>
+<tr><td>16.45-17.00</td><td>Menulis Respons Card dan penutup</td></tr></table></div>
+<h3>Hari 2: Relationship Building &amp; Networking (6 jam HCR + 2 jam sesi internal BSI)</h3>
+<div class="tw"><table><tr><th>Waktu</th><th>Sesi</th></tr>
+<tr><td>08.00-10.00</td><td>Stakeholder Constellation Map: memetakan dan memperkuat hubungan</td></tr>
+<tr><td>10.15-12.00</td><td>Komunikasi yang berkelanjutan: pesan, ritme, dan adab menghubungi pihak eksternal</td></tr>
+<tr><td>13.00-14.45</td><td>Pasangan Strategis: simulasi kolaborasi lintas unit</td></tr>
+<tr><td>14.45-15.15</td><td>Post-test dan komitmen jaringan 7 hari</td></tr>
+<tr><td>15.15-17.00</td><td>Sesi pemateri internal BSI (sesuai RFP); HCR menyiapkan jembatan topik sebelumnya</td></tr></table></div>
+<div class="note">Asumsi kami: 2 jam terakhir Hari 2 diisi pemateri internal BSI, sehingga HCR membawakan 6 jam. Bila BSI menginginkan pembagian lain, kami sesuaikan.</div>
+</section>
+
+<section class="tab" id="t3">
+<h2>Evaluasi dan Dampak</h2>
+<p class="lead">Memenuhi evaluasi L2 yang diminta RFP, lalu melangkah satu tahap lebih jauh ke perilaku.</p>
+<div class="grid">
+<div class="card"><h3>Pre-test dan Post-test</h3><p>Bank soal maksimal 30 soal pilihan ganda, selaras dengan indikator perilaku. Pre-test diberikan lewat LMS sebelum hari pertama.</p></div>
+<div class="card"><h3>Individual Report: Respons Profile</h3><p>Satu laporan per pegawai berisi strength, area improvement, dan skor empat dimensi: peran, kolaborasi, umpan balik, jaringan. Dari observasi fasilitator dan nilai tes.</p></div>
+<div class="card"><h3>Laporan Pelaksanaan</h3><p>Per batch, hardcopy dan softcopy, dengan dokumentasi foto dan video, peta kekuatan kelompok, dan ringkasan Respons Card 7 hari. Diserahkan 27 Oktober 2026.</p></div>
+</div>
+<h3>Indikator keberhasilan yang kami targetkan</h3>
+<div style="margin:14px 0"><div style="display:flex;justify-content:space-between;font-size:14px"><span>Kehadiran dan partisipasi aktif</span><span>100% peserta praktik</span></div><div class="bar2"><i data-w="100"></i></div></div>
+<div style="margin:14px 0"><div style="display:flex;justify-content:space-between;font-size:14px"><span>Setiap peserta memiliki Respons Card</span><span>100%</span></div><div class="bar2"><i data-w="100"></i></div></div>
+<div style="margin:14px 0"><div style="display:flex;justify-content:space-between;font-size:14px"><span>Setiap peserta menerima Individual Report</span><span>100%</span></div><div class="bar2"><i data-w="100"></i></div></div>
+<p class="lead" style="font-size:13px">Target peningkatan skor post-test dan kebiasaan pasca pelatihan disepakati bersama BSI Corporate University saat negosiasi.</p>
+</section>
+
+<section class="tab" id="t4">
+<h2>Tim dan Pengalaman</h2>
+<div class="grid">
+<div class="card"><h3>Narasumber 1: Driving High Performance Teams</h3><p><b>Harri Firmansyah</b> (Kang Harri), konsultan pengembangan diri dan organisasi, trainer, coach, penulis buku terlaris "High Class Response". Pengalaman korporasi di perbankan, manufaktur otomotif, dan pemerintahan.</p></div>
+<div class="card"><h3>Narasumber 2: Relationship Building &amp; Networking</h3><p>[Nama, pendidikan S1+, pengalaman 10+ tahun, sertifikasi: isi sebelum dikirim]</p></div>
+<div class="card"><h3>Asisten Narasumber dan Staf Administrasi</h3><p>Mendampingi 1,75 hari per batch: observasi untuk Individual Report, logistik LMS, sertifikat, dan dokumentasi.</p></div>
+</div>
+<div class="note">Lampirkan CV narasumber, profil perusahaan, bukti kerja sama dengan BSI sebagai konsultan terakreditasi, dan contoh Individual Report, sesuai Bagian 5 RFP.</div>
+</section>
+
+<section class="tab" id="t5">
+<h2>Timeline dan Investasi</h2>
+<div class="tw"><table><tr><th>Tanggal</th><th>Tahap</th></tr>
+<tr><td>6 Okt</td><td>RFP disampaikan (meeting online)</td></tr>
+<tr><td>8 Okt</td><td>Proposal penawaran</td></tr>
+<tr><td>9 Okt</td><td>Negosiasi harga dan revisi</td></tr>
+<tr><td>12 Okt</td><td>SPK</td></tr>
+<tr><td>12-14 Okt</td><td>Penyesuaian materi dengan data BSI, upload ke LMS, pre-test, dry run delivery</td></tr>
+<tr><td>15-16 Okt</td><td>Batch 1 (Kamis-Jumat)</td></tr>
+<tr><td>19-20 Okt</td><td>Batch 2 (Senin-Selasa)</td></tr>
+<tr><td>27 Okt</td><td>Laporan pelaksanaan dan evaluasi (hardcopy dan softcopy)</td></tr></table></div>
+<h3 style="margin-top:22px">Bill of Quantity</h3>
+<div class="tw"><table><tr><th>Item</th><th>Qty</th><th>Hari/Satuan</th><th>Batch</th><th>Harga Satuan</th></tr>
+<tr><td>Narasumber 1 (DHPT)</td><td>1</td><td>1 hari</td><td>2</td><td>Rp ______</td></tr>
+<tr><td>Narasumber 2 (RB&amp;N)</td><td>1</td><td>0,75 hari</td><td>2</td><td>Rp ______</td></tr>
+<tr><td>Asisten Narasumber</td><td>1</td><td>1,75 hari</td><td>2</td><td>Rp ______</td></tr>
+<tr><td>Staf Administrasi</td><td>1</td><td>1,75 hari</td><td>2</td><td>Rp ______</td></tr>
+<tr><td>Materi pelatihan &amp; bank soal</td><td>30 pax</td><td>Pax</td><td>2</td><td>Rp ______</td></tr>
+<tr><td>Sertifikat</td><td>30 pax</td><td>Pax</td><td>2</td><td>Rp ______</td></tr>
+<tr><td>Laporan &amp; evaluasi</td><td>1</td><td>Laporan</td><td>2</td><td>Rp ______</td></tr></table></div>
+<div class="note">Harga sudah termasuk pajak sesuai ketentuan. Ruang, perangkat presentasi, dan konsumsi disediakan BSI.</div>
+</section>
+
+<section class="tab" id="t6">
+<h2>Kesesuaian dengan RFP</h2>
+<details><summary>Ruang lingkup (3a-3i)</summary><div class="in"><ul><li>Jadwal, lokasi, 60 peserta (2 × 30), dan durasi 14 jam: sesuai.</li><li>Materi baca, study case, roleplay, PPT/PDF/video khusus BSI untuk LMS: sesuai.</li><li>Bank soal maksimal 30 soal dan dry run: sesuai.</li><li>Narasumber S1+, pengalaman 10+ tahun: sesuai.</li><li>Pre, during, post learning dan 2 arah: sesuai.</li><li>Pre/post-test, Individual Report, sertifikat, laporan dan dokumentasi: sesuai.</li></ul></div></details>
+<details><summary>Kriteria vendor (4a-4d)</summary><div class="in"><ul><li>Rekanan konsultan terakreditasi BSI: lampirkan bukti.</li><li>Pengalaman strategic leadership capability: lampirkan portofolio.</li><li>Fasilitator berpengalaman dan bersertifikat: lampirkan CV dan sertifikat.</li><li>Laporan sistematis dan terstruktur: lampirkan contoh.</li></ul></div></details>
+<details><summary>Pengiriman</summary><div class="in">Email ke fadil.aprinda@bankbsi.co.id, cc fachri.wiratama@bankbsi.co.id. Subjek: <b>Pelatihan SOC3 ACRM &amp; N4 KP_HCR.ID</b>. Batas penyampaian: 8 Oktober 2026.</div></details>
+</section>
+</div>
+
+<footer>HCR.ID · High Class Response · hcr.id</footer>
+
+<script>
+const T=['Ringkasan','Kebutuhan','Rancangan','Agenda','Evaluasi','Tim','Investasi','Kepatuhan'];
+const secs=['hero','t0','t1','t2','t3','t4','t5','t6'];
+const nav=document.getElementById('nav');
+// tab 0 = hero only
+T.forEach((t,i)=>{const b=document.createElement('button');b.textContent=t;b.setAttribute('role','tab');b.onclick=()=>go(i);nav.appendChild(b)});
+function go(i){
+ [...nav.children].forEach((b,j)=>b.setAttribute('aria-selected',j===i));
+ document.querySelectorAll('section.tab').forEach((s,j)=>s.classList.toggle('on',j+1===i));
+ document.querySelector('#prog i').style.width=((i+1)/T.length*100)+'%';
+ document.querySelectorAll('.bar2 i').forEach(e=>e.style.width=(i===4?e.dataset.w:0)+'%');
+ window.scrollTo({top:0});
+}
+document.querySelectorAll('[data-n]').forEach(e=>{const n=+e.dataset.n;let c=0;const s=setInterval(()=>{c++;e.textContent=c;if(c>=n)clearInterval(s)},60)});
+go(0);
+</script>
+</body>
+</html>
